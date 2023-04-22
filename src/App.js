@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Hero from './components/Hero/Hero';
+import Nav from './components/Nav/Nav';
+import Foot from './components/Footer/Foot';
+import Newsletter from './components/TCards/Newsletter';
+import FoodSection from './components/FoodSection/FoodSection';
+import FoodSection2 from './components/FoodSection2/FoodSection2';
+import FoodSection3 from './components/FoodSection3/FoodSection3.jsx';
+
+import Videosec from './components/Videosec/Videosec';
+import Aboutus from './components/Aboutus/Aboutus';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <Hero/>
+      <FoodSection/>
+      <FoodSection2/>
+      <FoodSection3/>
+      <Videosec/>
+      <Aboutus/>
+      <Foot/>
+      
     </div>
   );
 }
