@@ -1,0 +1,12 @@
+
+.zoomIn{
+    transition: width 1s, height 1s;
+}
+.zoomIn:hover{
+   height:100px;
+   width: 50px;
+}
+
+p,li{
+    font-family: 'Roboto Slab', serif;
+}

@@ -4,16 +4,13 @@ import './Videosec.css';
 
 const Videosec = () => {
   return (
-    <div className='main relative'>
+    <div className='main '>
          <div className="overlay"></div>
          <video src={vid} autoPlay loop muted/>
          <div className='textContainer text-white gap-4 '>
               <h1 className='text-4xl sm:text-5xl font-bold'>Hungry for success?</h1>
-              <p>Lorem ipsum dolor, sit ammque unde eveniet!</p>
-           <div className='relative '>
-              <div className="absolute -inset-1 bg-yellow-400 rounded-lg blur-md"></div>
-              <button className='relative  px-7 py-3 bg-black text-white font-bold rounded-lg' >Connect </button>
-            </div>
+              <p>Let us feed your team with our tasty meals</p>
+           
   
          </div>
     </div>
